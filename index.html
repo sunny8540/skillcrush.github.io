@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p1</title>
+    <link rel="stylesheet" href="index.css">
+<style>
+    *{
+
+margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sign{
+float: right;
+margin-right: 1rem;
+/* padding:.2rem .5rem; */
+}
+.h1{
+
+background-color: #ddd;
+}
+.h1 b{
+margin-left: 1rem;
+}
+.h2 span{
+font-family: cursive;
+font-size: 2rem;
+margin: 1rem 1rem;
+}
+.h2{
+display: flex;
+/* justify-content: ; */
+}
+.sk{
+cursor: pointer;
+color: crimson;
+opacity: 0.7;
+
+}
+.sk:hover{
+transition: 300ms;
+opacity: 1;
+}
+.h2 ul li{
+color: gray;
+display: inline;
+line-height: 5rem;
+cursor: pointer;
+margin-left: 5rem;
+}
+.h2 ul li:hover{
+color: crimson;
+
+}
+.h2 ul{
+margin-left: 22rem;
+}
+.box{
+cursor: pointer;
+/* margi */
+color: black;
+padding: 1rem .8rem;
+width: 2rem;
+height: 1rem;
+background-color: crimson;
+}
+.box:hover{
+transition: 300ms;
+opacity: 0.9;
+}
+.h3 ul li{
+display: inline;
+margin-left: 3rem;
+cursor: pointer;
+/* margin: 1rem 0rem; */
+color: gray;
+}
+.h3 ul li:hover{
+color: crimson;
+transition: 200ms;
+}
+.h3 ul{
+margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: 20rem;
+/* justify-content: center; */
+
+}
+.h3 ul li b{
+color: black;
+}
+.h3 ul li b:hover{
+color: crimson;
+}
+.fir{
+color: gray;
+font-size: 1rem;
+position: absolute;
+margin-top: 1.8rem;
+margin-left:16rem ;
+}
+
+.b1{
+position: absolute;
+font-size: .7rem;
+margin-left: 30rem;
+/* line-height: 5rem; */
+width: 5rem;
+margin-top: 2rem;
+border-radius: 1.6rem;
+cursor: pointer;
+text-align: center;
+height: 1rem;
+background-color: crimson;
+}
+.l1{
+text-align: center;
+color: crimson;
+opacity: 0.8;
+margin-top: 5rem;
+cursor: pointer;
+}
+.l2{
+text-align: center;
+font-size: 3rem;
+opacity: 0.9;
+/* width: 10rem; */
+font-weight: 700;
+}
+.l3{
+text-align: center;
+margin:1rem 0rem ;
+font-weight: 700;
+opacity: 0.8;
+}
+.l3:hover{
+color: crimson;
+transition: 200ms;
+cursor: pointer;
+}
+.l4{
+margin-left: 20rem;
+margin-top: 4rem;
+opacity: 0.7;
+font-size: 1.4rem;
+}
+.img1{
+cursor: pointer;
+margin-top: 2rem;
+margin-left: 20rem;
+background-image: url("js.jpg");
+width: 45rem ;
+height: 35rem;
+background:auto ;
+}
+.text1{
+width: 100vw;
+/* opac */
+margin-top: 12rem;
+background-color:lightpink;
+height: 20rem;
+}
+.img2{
+position: absolute;
+background-image: url("k.jpg");
+width:25rem ;
+margin-top: 4rem;
+margin-left: 36rem;
+height: 25rem;
+background-repeat: no-repeat;
+background-size: 50% 50%;
+}
+.pk1{
+text-align: center;
+font-size: 2rem;
+padding-top: 5rem;
+/* margin-top: 5rem; */
+font-weight: 600;
+}
+.pk2{
+text-align: center;
+padding-top:1rem;
+font-weight: 500;
+
+}
+.pk3{
+text-align: center;
+padding-top:1rem;
+font-weight: 500; 
+}
+.h2{
+/* position: fixed; */
+}
+.pk4{
+width: 10rem;
+padding: 1rem 0rem;
+height:auto;
+text-align: center;
+margin-top: 2rem;
+opacity: 0.9;
+cursor: pointer;
+margin-left: 37rem;
+background-color: crimson;
+font-weight: 700;
+}
+.pk4:hover{
+opacity: 1;
+transition:300ms;
+}
+.text2{
+margin-top: 3rem;
+margin-right:18rem ;
+margin-left: 20rem;
+font-size: 1rem;
+color: black;
+opacity: 0.9;
+}
+span{
+/* color: crimson; */
+text-decoration: underline;
+/* padding-bottom: .5rem; */
+/* margin-bottom: .2rem; */
+
+}
+span:hover{
+color: crimson;
+cursor: pointer;
+transition: 200ms;
+}
+.bb{
+padding-top: 2rem;
+margin-top: 2rem;
+font-size: 1.2rem;
+font-weight:700 ;
+}
+.tab ul li{
+color: black;
+list-style: number  ;
+font-size: 1.1rem;
+cursor: pointer;
+padding-top: .7rem  ;
+}
+
+.tab ul li :hover{
+/* margin-top: .2rem; */
+color: crimson;
+}
+.text2{
+text-align: justify;
+font-size: 1.1rem;
+}
+.text3{
+font-weight: 700;
+margin-top: 2rem;
+font-size: 1.7rem;
+opacity: 0.9;
+}
+.text4{
+margin-top: 1rem;
+}
+.text5{
+margin-top: 2rem;
+font-size: 1.1rem;
+}
+.text6{
+margin-top: 1rem;
+}
+.img4{
+display: flex;
+}
+.img4{
+margin-top: 10rem;
+}
+.im{
+margin-left: 10rem;
+position: absolute;
+background-image: url("mm.png");
+width: 14rem ;
+background-repeat: no-repeat;
+height: 14rem;
+background-size: 50% 50%;
+}
+.tex1{
+margin-right: 10rem;
+text-align: justify;
+margin-left: 20rem;
+}
+.tex1 b{
+text-decoration: underline;
+font-size: 1.6rem;
+}
+.text7{
+margin-left: 20rem;
+margin-top: 2rem;
+}
+.h{
+position: absolute;
+width: 3rem;
+margin-top: -.5rem;
+transform: rotate(90deg);
+margin-left: 5rem;
+background-color: black;
+}
+p6{
+position: absolute;
+margin-left: 2rem;
+font-weight: 700;
+cursor: pointer;
+color: crimson;
+}
+b{
+margin-left: 1.5rem;
+}
+.l10 b{
+margin-left: 10rem;
+/* margin-top: 5rem; */
+font-size: 1.3rem;
+}
+.l10{
+margin-top: 2rem;
+}
+.img111{
+display: flex;
+margin-top: 2rem;
+margin-left: 5rem;
+
+}
+
+.img11{
+background-repeat: no-repeat;
+background-size: 75% 75%;
+width: 20rem ;
+height: 15rem;
+font-weight: 700;
+
+background-image: url("one.jpg");
+}
+.img12{
+background-repeat: no-repeat;
+background-size: 75% 75%;
+width: 20rem ;
+height: 15rem;
+font-weight: 700;
+
+background-image: url("two.jpg");
+}
+.img13{
+background-repeat: no-repeat;
+background-size: 75% 75%;
+width: 20rem ;
+height: 15rem;
+font-weight: 700;
+
+background-image: url("three.jpg");
+}
+.img14{
+background-repeat: no-repeat;
+background-size: 75% 75%;
+width: 20rem ;
+height: 15rem;
+font-weight: 700;
+background-image: url("four.jpg");
+}
+
+.txt{
+display: inline;
+}
+.pp1{
+text-align: center;
+font-size: 2rem;
+opacity: 0.8;
+font-weight: 700;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+input{
+margin-top: 2rem;
+margin-left: 25rem;
+width: 17rem ;
+padding-left: 1rem;
+font-size: 1rem;
+border: .2rem solid  black;
+height: 3rem;
+}
+button{
+background-color: black;
+cursor: pointer;
+color: #ddd;
+font-size: 1.1rem;
+margin-left: .3rem;
+width: 12rem ;
+height: 3rem;
+opacity: 0.8;
+}
+button:hover{
+opacity: 1;
+}
+.col    {
+display: flex;
+}
+.col1{
+width: 60em;
+
+margin: 1rem 2rem;
+}
+.col1 ul li{
+font-size:0.8rem;
+
+padding: .5rem .5rem;
+list-style: none;
+}
+
+.col2{
+width: 60em;
+margin: 1rem 2rem;
+}
+.col2 ul li{
+    font-size:0.8rem;
+
+    padding: .5rem .5rem;
+    list-style: none;
+}
+
+.col3{
+    width: 60em;
+
+    margin: 1rem 2rem;
+    }
+    .col3 ul li{
+        font-size:0.8rem;
+        padding: .5rem .5rem;
+        list-style: none;
+    }
+.col1 b{
+font-size: 1.4rem;
+padding: 1rem 0rem;
+}
+.col2 b{
+font-size: 1.4rem;
+padding: 1rem 0rem;
+}
+.col3 b{
+font-size: 1.4rem;
+padding: 1rem 0rem;
+}
+.c{
+color: gray;
+}
+.c:hover{
+color: gray;
+}      
+.col ul li:hover{
+cursor: pointer;
+color:crimson;
+}
+.cont{
+opacity: 0.9;
+text-align: center;
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+.cont b{
+cursor: pointer;
+}
+.sky{
+color: crimson;
+font-size: 2rem;
+font-weight: 600;
+opacity: 0.8;
+margin-top: 1rem;
+margin-left: 1rem;
+position: absolute;
+margin-bottom: 2rem;
+padding-bottom: 1rem;
+/* padding: 1rem 1rem; */
+
+text-decoration: none;
+}
+.ul ul li{
+
+list-style-type: none;
+font-size: 0.7rem;
+color: gray;
+display: inline;
+margin-left: 2rem;
+}
+.ul ul li:hover{
+color: crimson;
+cursor: pointer;
+}
+.ul{
+margin-left: 15rem;
+margin-top:2rem;
+}
+</style>
+</head>
+<body>
+        <div class="main">
+            <div class="h1"><b>THE ONLINE CODING & DESIGN SCHOOL WITH A</b><span class="sign">Sign in</span></div>
+            <hr>
+            <div class="h2"><span class="sk">skillcrush</span>
+                <p class="fir">BREAK INTO TECH PROGRAM</p>
+                <p class="b1">Job gurantee</p>
+                <ul>
+                <li>STUDENT OUTCOMES</li>
+                 <li> SKILL COURSES</li>
+                 <li>BLOG </li>
+                 <li class="box">FREE CODING CAMP </li>
+            </ul>
+            </div>
+            <hr>
+            <div class="h3">
+                <ul>
+
+                    <li><b>BLOG</b></li>
+                    <li>Front End Developer</li>
+                    <li>Web Designer</li>
+                    <li>Learn to Code</li>
+                    <li>Get Hired</li>
+                    <li>Work in Tech</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="l1"><b>Home » Blog » Learn to Code » Languages and Tools » JavaScript</b>
+            </div>
+            <div class="l2">What Kinds Of Jobs Can You <br>Get With JavaScript Skills?</div>
+            <div class="l3">By Scott Morris</div>
+            <div class="l4"><i>Script your way to a payday.</i></div>
+            <div class="img1"></div>
+            <div class="img2"></div>
+
+            <div class="text1">
+                <div class="pk1">Is Tech Right For You? Take Our 3-Minute Quiz!</div>
+                <div class="pk2">YOU WILL LEARN:  If a career in tech is right for you  What tech careers fit your strengths</div>
+                <div class="pk3"> What skills you need to reach your goals</div>
+                <div class="pk4">TAKE THE QUIZ!</div>
+            
+            </div>
+            <div class="text2">
+                <p>If you’re not familiar with <span >JavaScript</span> or you need a refresher, it’s a <span>scripting language</span> used to add and control dynamic content on a website. Where markup languages like <span>HTML</span> and <span>CSS</span> give web browsers instructions on how to display a website (defining static things like headers, fonts, paragraphs, etc.), JavaScript executes the features on a page that need to update in real time without a user having to refresh their screen (things like interactive maps, animated graphics, scrolling video, jukeboxes, etc.).</p><br><br>
+                <p>Since most websites eventually require content and features above and beyond static text, JavaScript is an important addition to an HTML/CSS foundation. But how exactly do JavaScript skills translate to jobs when it comes to nailing down <span>paid work</span> ?</p><br><br>
+                <p>We’ll answer that question in this article, and—when you’re ready to start learning the skills to GET this jobs—take a look at our Skillcrush <span>Front End Developer</span> and <span>Web Developer Blueprint</span> Courses. These online classes are designed to completed in three months by spending just an hour a day on the materials.</p>
+                <div class="bb">TABLE OF CONTENTS</div>
+                <div class="tab">
+                    <ul>
+                        <li><u>Are There a Lot of JavaScript Jobs?
+                        </u></li>
+                        <li><u>What Do JavaScript Jobs Look Like?
+                        </u></li>
+                        <li><u> How is JavaScript Used on the Job?
+                        </u></li>
+                        <li><u>What Does it Take to Learn JavaScript?
+                        </u></li>
+                    </ul>
+                </div>
+                <div class="text3">Are There a Lot of JavaScript Jobs?</div>
+                <div class="text4">Amy Cho, CTO at diversity hiring site <span>Hirekind</span>, says that about one third of all programming-related jobs listed on sites like <span>Indeed</span> require JavaScript proficiency. According to Cho, the strong presence of JavaScript jobs in the workforce can be attributed to two things—the foundational nature of the language (as of this writing,<span> JavaScript helps provide the foundation for 95.1% of all active websites)</span> and the robust array of features JavaScript brings to those foundations (unlike the relatively cut-and-dried text and formatting of HTML and CSS, JavaScript’s features provide a flexible, added layer that make sites stand out and present as highly functional).  </div>
+            <div class="text5"><span>(back to top)</span></div>
+                <div class="text3">What Do JavaScript Jobs Look Like?</div>
+                <div class="text4">According to Elaine Queathem, Founder at coding bootcamp <span>Savvy Coders</span>, some of the most common JavaScript jobs include <span>front end web development</span> (building the user-facing, visual parts of a website), web application development (creating web-based software applications including interactive online forms and shopping carts, word processing and spreadsheet programs, video and photo editors, file conversion and scanning programs, and email software), and website administration (maintaining, backing up, and updated existing websites for an organization).<br><br>
+                    Meanwhile, Ross O’Neill, Quality Assurance Automation Specialist and Founder at job site <span>WorkNearYou</span>, adds full stack developer and quality assurance automation specialist to the list of JavaScript jobs. These are web developers who work on the front end of a website as well as its back end—the invisible infrastructure that powers websites “under the hood”—and technicians who oversee automated software testing, respectively.<br><br>
+                    As of this writing, <span>Glassdoor has nearly 53,000 JavaScript jobs posted</span>, including the roles Queathem and O’Neill mentioned, as well as web marketing managers (online marketing professionals who create and implement digital marketing campaigns) and web marketing design specialists (digital designers who create the design strategy for those campaigns). Cho points out that <span>these JavaScript jobs are not confined to traditional tech companies</span>, either. “Most industries—including things like banking, insurance, and retail—rely on some form of software or website that very likely uses JavaScript,” Cho says. “Which means companies ranging from enterprise to startup are all hiring for these kinds of JavaScript jobs.”
+                </div>
+                <div class="text5"><span>(back to top)</span></div>
+                <div class="text3">What Does It Take to Learn JavaScript?</div>
+                <div class="text6"><span>Like most tech skills</span>, the time it takes to pick up JavaScript and start working is probably a lot less than you think. Cho says it took her about four months to teach herself JavaScript, while O’Neill says he got up to speed in about six. As for where to start learning, Queathem points prospective JavaScript students toward the many resources available online, including <span>Codeacademy</span>, <span>Freecodecamp</span>, and <span>Udemy</span>. Queathem also stresses the importance of seeking out local developer meetups and using them as an opportunity for networking and mentorship. If in-person meetups are hard to find in your area, you can find similar opportunities by staying active in forums like <span>Github</span> and <span>Stack Overflow</span>, while checking out webinars and articles from sources like <span>TechSoup</span> and <span>TechCrunch</span>.
+                <br><br>
+                However—also like most tech skills—while JavaScript can be picked up over a course of months, the learning process continues over the course of a career. For instance, Cho says things like the continued development and popularity of JavaScript frameworks (collections of pre-written JavaScript code commonly used in web development) means that there are always new techniques and applications to pick up—you don’t simply “learn JavaScript” once.<br><br>
+                Similarly, most people don’t learn JavaScript in a vacuum. No matter how JavaScript-intensive your job may be, it’s usually carried out alongside other programming languages and skills. Queathem says that while her career has been primarily focused on JavaScript, she’s also picked up some PHP(opens in a new tab) (another scripting language used for automation) and <span>Python</span> (opens in a new tab)(an all-purpose programming language used for app and software development), as well as familiarizing herself with content management systems (platforms for publishing digital content) like <span>ExpressionEngine</span> and <span>WordPress</span>. Cho adds that HTML, CSS, and an understanding of database management (e.g. <span>SQL</span> ) are also crucial skills to learn alongside JavaScript.
+            <br><br>
+            With as many JavaScript jobs as are out there, Queathem adds that, even if you don’t end up in a JavaScript-forward role, it’s still an essential language to add to your toolkit. If if you give JavaScript the time it deserves, says Queathem, you’ll see the returns in a highly marketable skill for your resume, and in the personal achievement of being qualified to land creatively satisfying and professionally rewarding work.    
+            </div>
+            <div class="text5"><span>(back to top)</span></div>
+
+            </div>
+            <div class="img2"></div>
+
+            <div class="text1">
+                <div class="pk1">Is Tech Right For You? Take Our 3-Minute Quiz!</div>
+                <div class="pk2">YOU WILL LEARN:  If a career in tech is right for you  What tech careers fit your strengths</div>
+                <div class="pk3"> What skills you need to reach your goals</div>
+                <div class="pk4">TAKE THE QUIZ!</div>
+            
+            </div>
+            <div class="img4">
+                <div class="im"></div>
+                <div class="tex1">
+                    <b>Scott Morris</b><br><br>
+                    Scott Morris is Skillcrush's staff writer and content producer. Like all the members of Skillcrush's team, he works remotely (in his case from Napa, CA). He believes that content that's worth reading (and that your audience can find!) creates brands that people follow. He's experienced writing on topics including jobs and technology, digital marketing, career pivots, gender equity, parenting, and popular culture. Before starting his career as a writer and content marketer, he spent 10 years as a full-time parent to his daughters Veronica and Athena.
+                </div>
+
+            </div>
+                <div class="text7"><span>(back to top)</span><hr class="h"><b>Category: </b><p6>BLOG, JAVASCRIPT, LANGUAGES AND TOOLS, LEARN TO CODE, WORK IN</p6></div>
+            <div class="l10"><b>Related Posts</b>
+            </div>
+            <div class="img111">
+
+
+            <div class="img11"><br><br><br><br><br><br><br><br><br>UX Design Process: A Step-by-Step<br> Guide</div>
+           
+            <div class="img12"><br><br><br><br><br><br><br><br><br>How to Make Your UX Design <br>Portfolio Stand Out </div>
+            <div class="img13"><br><br><br><br><br><br><br><br><br>How One Skillcrush Student Tackled Technical Tests and Landed a Job</div>
+            <div class="img14"><br><br><br><br><br><br><br><br><br>How to Find Clients Through <br>Upwork and Other Freelancing<br> Sites</div>
+
+
+        </div><br>
+         <hr>
+<div class="pp1">         Haven't Found What You're Looking For?</p>
+</div>
+<input type="text" placeholder="Enter Search Item"><button onclick="abc()">Search</button>
+        <br><br><br><hr>
+
+<div class="col">
+    <div class="col1"><b>COURSES</b>
+    <hr>
+    <ul>
+        <li>Meet with an Enrollment Counselor</li>
+        <li>    View All Courses</li>
+        <li><b>FREE</b> Coding Camp</li>
+        <li>Break Into Tech Program + Job Guarantee</li>
+        <li>Front End Development</li>
+        <li>Python for Web Apps & Data</li>
+        <li>User Experience (UX)</li>
+        <li>Visual Design</li>
+    </ul>
+    </div>
+    <div class="col2">
+        <b>RESOURCES</b>
+        <hr>
+        <ul>
+            <li><b>NEW!</b> The Get Hired Track with Job Guarantee</li>
+            <li>All About Skillcrush’s Job Guarantee: Details Here</li>
+            <li>Career Coaching for Skillcrush Students: Here’s How It Works</li>
+            <li>100+ Ways to Learn to Code for Free</li>
+            <li>Exactly What You Need to Know to Become a Front End<br> Developer</li>
+            <li>Here’s What to Learn if You Want to Be a Web Designer</li>
+            <li>How to Decide Between Being a Web Designer vs. Web <br>Developer</li>
+        </ul>
+    </div>
+    <div class="col3">
+        <b> ABOUT SKILLCRUSH</b>
+        <hr>
+        <ul>
+            <li class="c">We’re on a mission: to support our students—especially those marginalized by gender, race, and/or age—to learn in-demand tech skills and land higher paying and more fulfilling jobs.</li>
+            <li>About The Team</li>
+            <li>Blog</li>
+            <li>Anti-Racism Statement</li>
+            <li>Community Guidelines</li>
+            <li>Jobs</li>
+            <li>Sign In</li>
+        </ul>
+    </div>
+</div>
+<div class="cont"><b>   NEED HELP?</b>Check out the<b><span>FAQs,</span> </b>email us at<b><span> hello@skillcrush.com, </span></b>call us at (516) 540-2264, or set up a time to meet with an <b><span> enrollment counselor!</span></b></div>
+<hr>
+<span class="sky"><i>skillcrush</i></span>
+<div class="ul">
+    <ul>
+        <li>© 2012 - 2022 Skillcrush, Inc. All Rights Reserved.</li>
+        <li>Site Map</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
